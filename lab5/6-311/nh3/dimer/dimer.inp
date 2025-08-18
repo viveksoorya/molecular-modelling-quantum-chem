@@ -1,0 +1,3 @@
+! MP2 6-31G** opt numfreq
+
+* xyzfile 0 1 dimer-input-coordinates.xyz
