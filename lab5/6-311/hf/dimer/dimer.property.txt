@@ -1,0 +1,2858 @@
+*************************************************
+******************* ORCA 6.1.0 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 23
+   &version [&Type "String"] "6.1.0"
+   &progName [&Type "String"] "ProgMP2"
+   &Status [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.733471845182    4.552187740169    0.205520945147
+              H     -1.137524425766    4.370781590217    0.960504330171
+              H     -5.683186941595    4.674135547043   -0.168274443047
+              F     -7.253428416411    4.914212024275   -0.959899617808
+$End
+$SCF_Mulliken_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -3.4327915462843350e-01
+1                                      3.6197531035679509e-01
+2                                      3.8035390679871783e-01
+3                                     -3.9905006252704567e-01
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$SCF_Loewdin_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -2.2570046269690280e-02
+1                                      1.0543811517232438e-01
+2                                      3.1426917706250723e-02
+3                                     -1.1429498660882587e-01
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$SCF_Mayer_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4 "Total number of atoms"
+   &NBondOrdersPrint [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &bondThresh [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &components [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           9                           1                           1
+1                                                        2                           1                           3                           9
+   &BondOrders [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      8.9723984516124045e-01
+1                                      8.6266954658673312e-01
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &NA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.3432791546284495e+00
+1                                      6.3802468964320436e-01
+2                                      6.1964609320128139e-01
+3                                      9.3990500625270474e+00
+   &ZA [&Type "ArrayOfDoubles", &Dim (4,1)] "Total nuclear charge"
+                                                         0
+
+0                                      9.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+3                                      9.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -3.4327915462844949e-01
+1                                      3.6197531035679564e-01
+2                                      3.8035390679871861e-01
+3                                     -3.9905006252704744e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's total valence"
+                                                         0
+
+0                                      9.3923624825100027e-01
+1                                      9.0813814952439564e-01
+2                                      9.0683269721695048e-01
+3                                      8.7140110340941912e-01
+   &BVA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.3923624825094343e-01
+1                                      9.0813814952439575e-01
+2                                      9.0683269721695048e-01
+3                                      8.7140110340937404e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's free valence"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+3                                      0.0000000000000000e+00
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0009314028184019e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 1
+   &TOTAL [&Type "Double"]       2.1482329999999998e+00
+   &PREP [&Type "Double"]       5.4405999999999996e-02
+   &FOCK [&Type "Double"]       9.2240599999999973e-01
+   &DENS [&Type "Double"]       7.6923000000000075e-02
+   &ETOT [&Type "Double"]       6.1500000000011545e-04
+   &POP [&Type "Double"]       1.5860000000000873e-03
+   &TRAFO [&Type "Double"]       2.3686300000000007e-01
+   &DIIS [&Type "Double"]       5.8235000000000064e-02
+   &SOSCF [&Type "Double"]       1.9595800000000002e-01
+   &J [&Type "Double"]       6.5051999999999988e-01
+   &FOCKSTART [&Type "Double"]       5.0800000000013334e-04
+   &FROZCORE [&Type "Double"]       1.6099999999985570e-04
+$End
+$MP2_Mulliken_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -3.3688330264354427e-01
+1                                      3.5612653506193492e-01
+2                                      3.7410006531463091e-01
+3                                     -3.9334329773297405e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Loewdin_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -1.6515369832790228e-02
+1                                      1.0036087846451636e-01
+2                                      2.5434121967876422e-02
+3                                     -1.0927963059953072e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Mayer_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4 "Total number of atoms"
+   &NBondOrdersPrint [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &bondThresh [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &components [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           9                           1                           1
+1                                                        2                           1                           3                           9
+   &BondOrders [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      8.6073318084981409e-01
+1                                      8.2850991953897257e-01
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &NA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.3368833026435443e+00
+1                                      6.4387346493806574e-01
+2                                      6.2589993468536975e-01
+3                                      9.3933432977329723e+00
+   &ZA [&Type "ArrayOfDoubles", &Dim (4,1)] "Total nuclear charge"
+                                                         0
+
+0                                      9.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+3                                      9.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -3.3688330264354427e-01
+1                                      3.5612653506193426e-01
+2                                      3.7410006531463025e-01
+3                                     -3.9334329773297227e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's total valence"
+                                                         0
+
+0                                      1.1867622391648189e+00
+1                                      9.1703160757730406e-01
+2                                      9.1623323267617351e-01
+3                                      1.1205339365756986e+00
+   &BVA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.0133852009558002e-01
+1                                      8.7109720507053567e-01
+2                                      8.7172614862513731e-01
+3                                      8.3626305391929534e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's free valence"
+                                                         0
+
+0                                      2.8542371906923891e-01
+1                                      4.5934402506768418e-02
+2                                      4.4507084051036205e-02
+3                                      2.8427088265640321e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Mulliken_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -3.0693960009568677e-01
+1                                      3.3446027823463376e-01
+2                                      3.4243194776349883e-01
+3                                     -3.6995262590239442e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Loewdin_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -4.7022127453999474e-04
+1                                      8.8289073798008988e-02
+2                                      8.1540424749950713e-03
+3                                     -9.5972894998391567e-02
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Mayer_Population_Analysis
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4 "Total number of atoms"
+   &NBondOrdersPrint [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &bondThresh [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &components [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           9                           1                           1
+1                                                        2                           1                           3                           9
+   &BondOrders [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      8.7999581003173011e-01
+1                                      8.5130665195967958e-01
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &NA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.3069396000956797e+00
+1                                      6.6553972176536591e-01
+2                                      6.5756805223650128e-01
+3                                      9.3699526259023873e+00
+   &ZA [&Type "ArrayOfDoubles", &Dim (4,1)] "Total nuclear charge"
+                                                         0
+
+0                                      9.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+3                                      9.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -3.0693960009567967e-01
+1                                      3.3446027823463409e-01
+2                                      3.4243194776349872e-01
+3                                     -3.6995262590238731e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's total valence"
+                                                         0
+
+0                                      1.2233184648950979e+00
+1                                      9.3853208451318804e-01
+2                                      9.5677298880698569e-01
+3                                      1.1454186734776486e+00
+   &BVA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.4013142599977928e-01
+1                                      8.9294672270051301e-01
+2                                      9.1283821066641868e-01
+3                                      8.6286162188977256e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's free valence"
+                                                         0
+
+0                                      2.8318703889531865e-01
+1                                      4.5585361812674988e-02
+2                                      4.3934778140567010e-02
+3                                      2.8255705158787603e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Energies
+   &GeometryIndex 1
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0009314028184019e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4462785076030265e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0053776813260049e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       6.0024249600728073e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -3.6985241213800646e-02
+1                                      3.0558321269376423e-03
+2                                     -1.1366774366374233e-02
+3                                      2.4085722349063143e-02
+4                                     -2.2368431331039607e-03
+5                                      9.1223110645641814e-03
+6                                      2.8762613916769375e-02
+7                                     -4.2902377354886445e-03
+8                                      1.3696381648895306e-02
+9                                     -1.5863095048482379e-02
+10                                     3.4712487384541690e-03
+11                                    -1.1451918346753409e-02
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 1
+   &FinalEnergy [&Type "Double"]      -2.0053776813260049e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 2
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.608213072513    4.546561721768    0.219264684549
+              H     -1.075497275739    4.362574292074    0.991046885299
+              H     -5.786947624182    4.687815447385   -0.210280514348
+              F     -7.336953656519    4.914365440476   -0.962179841037
+$End
+$SCF_Energy
+   &GeometryIndex 2
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0009863229908413e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 2
+   &TOTAL [&Type "Double"]       1.3491860000000000e+00
+   &PREP [&Type "Double"]       3.9821999999999996e-02
+   &FOCK [&Type "Double"]       5.5885400000000007e-01
+   &DENS [&Type "Double"]       2.4011899999999997e-01
+   &ETOT [&Type "Double"]       4.4099999999991368e-04
+   &TRAFO [&Type "Double"]       1.2676600000000016e-01
+   &DIIS [&Type "Double"]       2.1890800000000027e-01
+   &SOSCF [&Type "Double"]       7.9369999999996388e-03
+   &J [&Type "Double"]       5.5061800000000005e-01
+   &FOCKSTART [&Type "Double"]       3.9100000000019675e-04
+   &FROZCORE [&Type "Double"]       1.7099999999992122e-04
+$End
+$MP2_Energies
+   &GeometryIndex 2
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0009863229908413e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4248566285299901e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054111796193712e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 2
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       9.8508775558620847e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -4.3363042453080647e-03
+1                                     -1.4932451824996307e-04
+2                                      1.4890537769173262e-03
+3                                     -1.5848444539847684e-03
+4                                      5.6256961114214965e-04
+5                                     -2.5554223999562087e-03
+6                                      6.6109820337825198e-03
+7                                     -1.1902263919784661e-03
+8                                      3.6850418347809111e-03
+9                                     -6.8983333340533193e-04
+10                                     7.7698130084835615e-04
+11                                    -2.6186732114785727e-03
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 2
+   &FinalEnergy [&Type "Double"]      -2.0054111796193712e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 3
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.515289594937    4.543438964702    0.221760989726
+              H     -1.000355524972    4.352820318100    1.029702550648
+              H     -5.867309866185    4.699690693082   -0.247516916502
+              F     -7.424656642858    4.915366925820   -0.966095409409
+$End
+$SCF_Energy
+   &GeometryIndex 3
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0009982820777992e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 3
+   &TOTAL [&Type "Double"]       1.2952920000000001e+00
+   &PREP [&Type "Double"]       7.2212999999999999e-02
+   &FOCK [&Type "Double"]       8.0005899999999996e-01
+   &DENS [&Type "Double"]       5.7289999999999841e-02
+   &ETOT [&Type "Double"]       5.0499999999982503e-04
+   &TRAFO [&Type "Double"]       4.9584000000000128e-02
+   &DIIS [&Type "Double"]       1.8512000000000028e-02
+   &SOSCF [&Type "Double"]       8.4857999999999822e-02
+   &J [&Type "Double"]       4.6628400000000003e-01
+   &FOCKSTART [&Type "Double"]       5.2699999999990255e-04
+   &FROZCORE [&Type "Double"]       1.7400000000011850e-04
+$End
+$MP2_Energies
+   &GeometryIndex 3
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0009982820777992e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4213735101083962e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054196555879076e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 3
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       4.0081448317442229e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -1.9261200103755649e-03
+1                                     -1.6821644868456054e-04
+2                                      1.3072379939388368e-03
+3                                     -3.7499722885936393e-04
+4                                      3.5536250145601356e-04
+5                                     -1.7059547548350373e-03
+6                                     -2.1004497722287852e-04
+7                                     -3.1116117157109491e-04
+8                                      8.6987629873136463e-04
+9                                      2.5111622202151906e-03
+10                                     1.2401511506121565e-04
+11                                    -4.7115953729237603e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 3
+   &FinalEnergy [&Type "Double"]      -2.0054196555879076e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 4
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.443196705565    4.541830280031    0.217422402258
+              H     -0.949624109414    4.344703668577    1.064155856706
+              H     -5.919123736471    4.709877439939   -0.279870257579
+              F     -7.495667077504    4.914905513157   -0.963856786923
+$End
+$SCF_Energy
+   &GeometryIndex 4
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010016447789701e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 4
+   &TOTAL [&Type "Double"]       3.6386099999999999e-01
+   &PREP [&Type "Double"]       5.9771999999999999e-02
+   &FOCK [&Type "Double"]       3.1217299999999998e-01
+   &DENS [&Type "Double"]       2.2330000000000405e-03
+   &ETOT [&Type "Double"]       6.3599999999994217e-04
+   &TRAFO [&Type "Double"]       1.4620000000000188e-03
+   &DIIS [&Type "Double"]       5.8700000000000419e-03
+   &SOSCF [&Type "Double"]       3.3019999999999161e-03
+   &J [&Type "Double"]       3.3343599999999995e-01
+   &FOCKSTART [&Type "Double"]       5.9199999999991898e-04
+   &FROZCORE [&Type "Double"]       1.9399999999997197e-04
+$End
+$MP2_Energies
+   &GeometryIndex 4
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010016447789701e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4208777799680959e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054225225589383e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 4
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.5792868538195885e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -6.4495035556993985e-04
+1                                     -1.8680281025210133e-04
+2                                      1.2483662847897481e-03
+3                                      1.8745683944443314e-04
+4                                      2.5102743811972195e-04
+5                                     -1.2847763720555960e-03
+6                                      1.1716564035246790e-04
+7                                     -3.7409582211173076e-04
+8                                      1.1425847248622834e-03
+9                                      3.4032788001425729e-04
+10                                     3.0987119281611353e-04
+11                                    -1.1061746370901737e-03
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 4
+   &FinalEnergy [&Type "Double"]      -2.0054225225589383e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 5
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.396576671664    4.541952508076    0.206369878572
+              H     -0.925888518952    4.338713212920    1.092201981744
+              H     -5.946514666261    4.718304280029   -0.307320352731
+              F     -7.538631772076    4.912346900678   -0.953400293122
+$End
+$SCF_Energy
+   &GeometryIndex 5
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010033416608198e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 5
+   &TOTAL [&Type "Double"]       3.9724700000000002e-01
+   &PREP [&Type "Double"]       2.8142000000000000e-02
+   &FOCK [&Type "Double"]       3.3062999999999998e-01
+   &DENS [&Type "Double"]       5.9579999999999078e-03
+   &ETOT [&Type "Double"]       7.0399999999992691e-04
+   &TRAFO [&Type "Double"]       1.5649999999999969e-03
+   &DIIS [&Type "Double"]       6.7170000000000424e-03
+   &SOSCF [&Type "Double"]       9.4610000000000249e-03
+   &J [&Type "Double"]       3.5497299999999998e-01
+   &FOCKSTART [&Type "Double"]       6.3000000000000556e-04
+   &FROZCORE [&Type "Double"]       2.0599999999998397e-04
+$End
+$MP2_Energies
+   &GeometryIndex 5
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010033416608198e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4201964457151738e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054235381065351e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 5
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.3968092760213301e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -2.5908549512893009e-04
+1                                     -1.7115759618868687e-04
+2                                      1.1173215543942572e-03
+3                                      6.5100638727555449e-04
+4                                      1.7232946296236173e-04
+5                                     -9.6662611094688877e-04
+6                                     -1.2035011903370751e-03
+7                                     -1.9059844173596741e-04
+8                                      5.6549226675173259e-04
+9                                      8.1158030293781991e-04
+10                                     1.8942657214837677e-04
+11                                    -7.1618770968395751e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 5
+   &FinalEnergy [&Type "Double"]      -2.0054235381065351e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 6
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.355100296867    4.543463606711    0.186472043511
+              H     -0.917687990406    4.332704990511    1.123607275264
+              H     -5.960568392991    4.727487640715   -0.338449424301
+              F     -7.574254948689    4.907660663766   -0.933778680011
+$End
+$SCF_Energy
+   &GeometryIndex 6
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010043901346563e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 6
+   &TOTAL [&Type "Double"]       3.5470199999999996e-01
+   &PREP [&Type "Double"]       2.7718000000000000e-02
+   &FOCK [&Type "Double"]       2.8868199999999988e-01
+   &DENS [&Type "Double"]       2.1249999999999880e-03
+   &ETOT [&Type "Double"]       6.0000000000005882e-04
+   &TRAFO [&Type "Double"]       1.5020000000000033e-03
+   &DIIS [&Type "Double"]       5.7009999999999977e-03
+   &SOSCF [&Type "Double"]       3.0519999999999992e-03
+   &J [&Type "Double"]       3.0980100000000005e-01
+   &FOCKSTART [&Type "Double"]       6.0499999999988341e-04
+   &FROZCORE [&Type "Double"]       1.8499999999999073e-04
+$End
+$MP2_Energies
+   &GeometryIndex 6
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010043901346563e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4199835105962643e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054243736452526e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 6
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.3773267245487647e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      2.7862268928857681e-04
+1                                     -2.0632920022706225e-04
+2                                      1.2334120016241901e-03
+3                                      6.8577973427830230e-04
+4                                      1.5806139221030691e-04
+5                                     -9.3231155614859063e-04
+6                                     -1.3125382240999350e-03
+7                                     -1.4538426897936496e-04
+8                                      4.4011431082036090e-04
+9                                      3.4813580753922935e-04
+10                                     1.9365207415722452e-04
+11                                    -7.4121475563604378e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 6
+   &FinalEnergy [&Type "Double"]      -2.0054243736452526e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 7
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.292619872495    4.548389128142    0.137301914969
+              H     -0.933402129287    4.322857635230    1.182119952694
+              H     -5.964189516776    4.744079894672   -0.398782776353
+              F     -7.617400110395    4.895990243659   -0.882787876848
+$End
+$SCF_Energy
+   &GeometryIndex 7
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010059710780922e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 7
+   &TOTAL [&Type "Double"]       3.2672099999999998e-01
+   &PREP [&Type "Double"]       2.8829999999999998e-02
+   &FOCK [&Type "Double"]       2.7494300000000005e-01
+   &DENS [&Type "Double"]       2.1780000000000688e-03
+   &ETOT [&Type "Double"]       6.1699999999990929e-04
+   &TRAFO [&Type "Double"]       1.4739999999999892e-03
+   &DIIS [&Type "Double"]       5.7950000000000224e-03
+   &SOSCF [&Type "Double"]       3.2050000000000411e-03
+   &J [&Type "Double"]       2.9751399999999995e-01
+   &FOCKSTART [&Type "Double"]       5.7800000000005070e-04
+   &FROZCORE [&Type "Double"]       1.8000000000001348e-04
+$End
+$MP2_Energies
+   &GeometryIndex 7
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010059710780922e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4199474056720983e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054259184837642e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 7
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.6424157065644931e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      6.8054834959996313e-04
+1                                     -2.2775931159590979e-04
+2                                      1.2823664601377960e-03
+3                                      9.1813378227589837e-04
+4                                      1.1360371973290206e-04
+5                                     -7.7944061986867652e-04
+6                                     -1.7239923363421283e-03
+7                                     -2.8775271750103304e-05
+8                                      8.3124041773796620e-05
+9                                      1.2531020726402886e-04
+10                                     1.4293085873107181e-04
+11                                    -5.8604988190613660e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 7
+   &FinalEnergy [&Type "Double"]      -2.0054259184837642e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 8
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.257412377769    4.548693664552    0.128065131420
+              H     -1.062439587508    4.286523287029    1.413190844231
+              H     -5.959667052130    4.777293699653   -0.522702739520
+              F     -7.646001061615    4.895851277708   -0.879236330471
+$End
+$SCF_Energy
+   &GeometryIndex 8
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0009926262249081e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 8
+   &TOTAL [&Type "Double"]       3.7728900000000004e-01
+   &PREP [&Type "Double"]       2.8903999999999999e-02
+   &FOCK [&Type "Double"]       3.1950900000000004e-01
+   &DENS [&Type "Double"]       2.5519999999999987e-03
+   &ETOT [&Type "Double"]       6.8299999999980876e-04
+   &TRAFO [&Type "Double"]       1.6149999999999498e-03
+   &DIIS [&Type "Double"]       6.2330000000000718e-03
+   &SOSCF [&Type "Double"]       4.2069999999999608e-03
+   &J [&Type "Double"]       3.4123499999999984e-01
+   &FOCKSTART [&Type "Double"]       7.1899999999985170e-04
+   &FROZCORE [&Type "Double"]       6.3679999999999293e-03
+$End
+$MP2_Energies
+   &GeometryIndex 8
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0009926262249081e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4298023467021730e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054224285716103e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 8
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       3.6722224388702526e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -1.6822469783457805e-02
+1                                      3.6518090244857526e-03
+2                                     -1.7841548568617416e-02
+3                                      1.8975864734029013e-02
+4                                     -3.8512823115968153e-03
+5                                      1.8621997512089816e-02
+6                                     -3.2444730951599610e-03
+7                                      2.0105610492246462e-04
+8                                     -6.2799247040823403e-04
+9                                      1.0910781485842236e-03
+10                                    -1.5828225614633595e-06
+11                                    -1.5245647272621454e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 8
+   &FinalEnergy [&Type "Double"]      -2.0054224285716103e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 9
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.331866798619    4.553698183373    0.112844768510
+              H     -1.183261849968    4.297630025431    1.371490976221
+              H     -5.860080205143    4.769923772697   -0.498934203124
+              F     -7.550311225291    4.887109947440   -0.846084635946
+$End
+$SCF_Energy
+   &GeometryIndex 9
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010112193172148e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 9
+   &TOTAL [&Type "Double"]       3.4166699999999994e-01
+   &PREP [&Type "Double"]       3.1182999999999999e-02
+   &FOCK [&Type "Double"]       2.8872500000000006e-01
+   &DENS [&Type "Double"]       2.3980000000000112e-03
+   &ETOT [&Type "Double"]       6.7700000000002480e-04
+   &TRAFO [&Type "Double"]       1.5509999999999829e-03
+   &DIIS [&Type "Double"]       6.2409999999999549e-03
+   &SOSCF [&Type "Double"]       3.2929999999999904e-03
+   &J [&Type "Double"]       3.1049900000000008e-01
+   &FOCKSTART [&Type "Double"]       6.1400000000001037e-04
+   &FROZCORE [&Type "Double"]       1.8299999999998873e-04
+$End
+$MP2_Energies
+   &GeometryIndex 9
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010112193172148e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4206664012660513e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054318857184808e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 9
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       7.3413245346591041e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      2.7953496558481561e-03
+1                                     -8.9675286329238268e-04
+2                                      4.6598366982033568e-03
+3                                     -1.8038617488822517e-03
+4                                      7.5831235077106207e-04
+5                                     -4.0148265256090276e-03
+6                                     -1.6984422652512876e-03
+7                                      1.0764402202306789e-04
+8                                     -3.9318144390965148e-04
+9                                      7.0695436078960228e-04
+10                                     3.0796483450334922e-05
+11                                    -2.5182872852136384e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 9
+   &FinalEnergy [&Type "Double"]      -2.0054318857184808e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 10
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.382869014627    4.559378413985    0.089553965762
+              H     -1.244233459334    4.301188311109    1.362256713375
+              H     -5.802054740079    4.766284475902   -0.489252891040
+              F     -7.496362864983    4.881510727944   -0.823240882437
+$End
+$SCF_Energy
+   &GeometryIndex 10
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010100144276726e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 10
+   &TOTAL [&Type "Double"]       2.8164200000000000e-01
+   &PREP [&Type "Double"]       3.0099999999999998e-02
+   &FOCK [&Type "Double"]       2.3178100000000018e-01
+   &DENS [&Type "Double"]       1.7710000000000226e-03
+   &ETOT [&Type "Double"]       5.0800000000014722e-04
+   &TRAFO [&Type "Double"]       1.5369999999998996e-03
+   &DIIS [&Type "Double"]       3.7700000000000095e-03
+   &SOSCF [&Type "Double"]       3.3679999999999821e-03
+   &J [&Type "Double"]       2.5689299999999993e-01
+   &FOCKSTART [&Type "Double"]       5.7500000000019688e-04
+   &FROZCORE [&Type "Double"]       1.9000000000002348e-04
+$End
+$MP2_Energies
+   &GeometryIndex 10
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010100144276726e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4230414371163529e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054330558647888e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 10
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       3.9230238098622271e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      2.9041951710162550e-05
+1                                     -5.0226759505050955e-04
+2                                      2.9046656704947438e-03
+3                                     -1.0192646023243768e-04
+4                                      4.1649409636701495e-04
+5                                     -2.3644310675705604e-03
+6                                     -5.8532396169086454e-04
+7                                      4.8276136223490695e-05
+8                                     -2.7331783188710990e-04
+9                                      6.5820847563191620e-04
+10                                     3.7497357295523948e-05
+11                                    -2.6691677095658228e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 10
+   &FinalEnergy [&Type "Double"]      -2.0054330558647888e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 11
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.395185794547    4.563411026606    0.068726908024
+              H     -1.279843272519    4.301593637432    1.366546653986
+              H     -5.775416958952    4.765345178941   -0.489544093987
+              F     -7.475074053004    4.878012085962   -0.806412562362
+$End
+$SCF_Energy
+   &GeometryIndex 11
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010086633880968e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 11
+   &TOTAL [&Type "Double"]       3.3139500000000000e-01
+   &PREP [&Type "Double"]       3.1495999999999996e-02
+   &FOCK [&Type "Double"]       2.7673799999999993e-01
+   &DENS [&Type "Double"]       2.3039999999999727e-03
+   &ETOT [&Type "Double"]       6.5600000000010095e-04
+   &POP [&Type "Double"]       1.0000000000287557e-06
+   &TRAFO [&Type "Double"]       1.7039999999999556e-03
+   &DIIS [&Type "Double"]       5.4499999999999688e-03
+   &SOSCF [&Type "Double"]       3.5549999999999748e-03
+   &J [&Type "Double"]       3.0101399999999995e-01
+   &FOCKSTART [&Type "Double"]       6.5900000000000680e-04
+   &FROZCORE [&Type "Double"]       2.1199999999998997e-04
+$End
+$MP2_Energies
+   &GeometryIndex 11
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010086633880968e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4250117842868930e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054336751723838e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 11
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.9303371691424105e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -2.0525925825272129e-03
+1                                     -1.0884300647767686e-04
+2                                      1.0329856163657780e-03
+3                                      1.5450880593999017e-03
+4                                      4.6679594294607440e-05
+5                                     -5.4487258364011026e-04
+6                                      6.3276941705492362e-04
+7                                     -3.0721173425396486e-05
+8                                     -6.5612725321573251e-05
+9                                     -1.2526489061137625e-04
+10                                     9.2884582678809391e-05
+11                                    -4.2250030675461403e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 11
+   &FinalEnergy [&Type "Double"]      -2.0054336751723838e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 12
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.394930086870    4.574918293298    0.002928531007
+              H     -1.383168415393    4.300825622818    1.390272652811
+              H     -5.716482986706    4.764839525827   -0.500347955272
+              F     -7.430938590054    4.867778486999   -0.753536322886
+$End
+$SCF_Energy
+   &GeometryIndex 12
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010062377794338e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 12
+   &TOTAL [&Type "Double"]       4.2719000000000007e-01
+   &PREP [&Type "Double"]       3.1150999999999998e-02
+   &FOCK [&Type "Double"]       3.2188400000000011e-01
+   &DENS [&Type "Double"]       2.3982000000000114e-02
+   &ETOT [&Type "Double"]       6.7899999999973537e-04
+   &POP [&Type "Double"]       1.0000000000287557e-06
+   &TRAFO [&Type "Double"]       1.0195999999999997e-02
+   &DIIS [&Type "Double"]       3.3685000000000048e-02
+   &SOSCF [&Type "Double"]       3.5789999999999988e-03
+   &J [&Type "Double"]       3.4617700000000018e-01
+   &FOCKSTART [&Type "Double"]       6.1099999999995186e-04
+   &FROZCORE [&Type "Double"]       1.8699999999993722e-04
+$End
+$MP2_Energies
+   &GeometryIndex 12
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010062377794338e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4292539825584371e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054354917619924e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 12
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       8.5588705290936713e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -5.2777516190374296e-03
+1                                      6.7181514310438173e-04
+2                                     -2.8342496182598431e-03
+3                                      4.0778435261841217e-03
+4                                     -6.8241124835988209e-04
+5                                      3.1689722809358223e-03
+6                                      2.6596910793390549e-03
+7                                     -1.7269093020230719e-04
+8                                      3.0911475333672556e-04
+9                                     -1.4597829849476440e-03
+10                                     1.8328703147074688e-04
+11                                    -6.4383741619122858e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 12
+   &FinalEnergy [&Type "Double"]      -2.0054354917619924e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 13
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.345477830701    4.594924520962   -0.120313174864
+              H     -1.602635589648    4.300384664905    1.433891509994
+              H     -5.621230920832    4.766038201651   -0.530748645694
+              F     -7.356175737841    4.847014541423   -0.643512783776
+$End
+$SCF_Energy
+   &GeometryIndex 13
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010029577846751e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 13
+   &TOTAL [&Type "Double"]       4.7332799999999997e-01
+   &PREP [&Type "Double"]       6.0194999999999999e-02
+   &FOCK [&Type "Double"]       4.2467600000000005e-01
+   &DENS [&Type "Double"]       1.4840000000000408e-03
+   &ETOT [&Type "Double"]       5.2799999999997294e-04
+   &TRAFO [&Type "Double"]       1.1039999999999939e-03
+   &DIIS [&Type "Double"]       4.4909999999999672e-03
+   &SOSCF [&Type "Double"]       2.7390000000001857e-03
+   &J [&Type "Double"]       4.4737000000000005e-01
+   &FOCKSTART [&Type "Double"]       4.2599999999996807e-04
+   &FROZCORE [&Type "Double"]       1.4899999999995472e-04
+$End
+$MP2_Energies
+   &GeometryIndex 13
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010029577846751e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4354629970706977e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054384207817458e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 13
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       1.5468293157565772e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -6.4661719912226800e-03
+1                                      1.6885951548225586e-03
+2                                     -8.3861211341540454e-03
+3                                      4.6876646360929364e-03
+4                                     -1.5837813368080322e-03
+5                                      8.2029044693658903e-03
+6                                      4.7032097144104057e-03
+7                                     -3.8135500938032973e-04
+8                                      9.8474061887071640e-04
+9                                     -2.9247023599445754e-03
+10                                     2.7654118610426215e-04
+11                                    -8.0152395388555231e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 13
+   &FinalEnergy [&Type "Double"]      -2.0054384207817458e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 14
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.275899779686    4.601720758090   -0.171717082229
+              H     -1.712836551899    4.300661113463    1.453072683105
+              H     -5.599186729688    4.769075588832   -0.555437123954
+              F     -7.337597017748    4.836904468557   -0.586601571262
+$End
+$SCF_Energy
+   &GeometryIndex 14
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010045648851280e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 14
+   &TOTAL [&Type "Double"]       3.5395899999999997e-01
+   &PREP [&Type "Double"]       2.8511999999999999e-02
+   &FOCK [&Type "Double"]       3.0385099999999998e-01
+   &DENS [&Type "Double"]       1.3260000000000494e-03
+   &ETOT [&Type "Double"]       4.7600000000007359e-04
+   &TRAFO [&Type "Double"]       1.1309999999999931e-03
+   &DIIS [&Type "Double"]       4.6289999999999804e-03
+   &SOSCF [&Type "Double"]       2.2650000000000448e-03
+   &J [&Type "Double"]       3.2956700000000000e-01
+   &FOCKSTART [&Type "Double"]       4.2199999999995019e-04
+   &FROZCORE [&Type "Double"]       1.5999999999999348e-04
+$End
+$MP2_Energies
+   &GeometryIndex 14
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010045648851280e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4358996949139146e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054404645800420e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 14
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       1.3206754838544842e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -3.6483061316152643e-03
+1                                      1.5553731335907761e-03
+2                                     -8.0983474342262163e-03
+3                                      2.6713638137929596e-03
+4                                     -1.4160142782282392e-03
+5                                      7.5865097400700243e-03
+6                                      3.8848834323590431e-03
+7                                     -4.2901217448407247e-04
+8                                      1.3654294843745418e-03
+9                                     -2.9079411092576279e-03
+10                                     2.8965331496505486e-04
+11                                    -8.5359178996302632e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 14
+   &FinalEnergy [&Type "Double"]      -2.0054404645800420e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 15
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.219676725000    4.601956379753   -0.183298335088
+              H     -1.754338807580    4.300973769856    1.459338091081
+              H     -5.609073896474    4.772959559645   -0.577442148270
+              F     -7.342430649968    4.832472219688   -0.559280702063
+$End
+$SCF_Energy
+   &GeometryIndex 15
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010099434586849e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 15
+   &TOTAL [&Type "Double"]       3.5172000000000003e-01
+   &PREP [&Type "Double"]       2.8777999999999998e-02
+   &FOCK [&Type "Double"]       3.0263299999999987e-01
+   &DENS [&Type "Double"]       1.3529999999999376e-03
+   &ETOT [&Type "Double"]       4.6000000000002983e-04
+   &POP [&Type "Double"]       9.9999999997324451e-07
+   &TRAFO [&Type "Double"]       1.1429999999999774e-03
+   &DIIS [&Type "Double"]       4.5039999999999941e-03
+   &SOSCF [&Type "Double"]       2.2660000000000735e-03
+   &J [&Type "Double"]       3.2792699999999997e-01
+   &FOCKSTART [&Type "Double"]       4.0599999999997236e-04
+   &FROZCORE [&Type "Double"]       1.7100000000003224e-04
+$End
+$MP2_Energies
+   &GeometryIndex 15
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010099434586849e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4318659405377359e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054418093992226e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 15
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.3189174011173670e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -1.7369135815403780e-05
+1                                      2.5749015017673127e-04
+2                                     -1.3006124201759839e-03
+3                                     -7.4061680115589112e-05
+4                                     -1.3269365499912755e-04
+5                                      7.1214102094563358e-04
+6                                      2.4954207886684898e-04
+7                                     -3.1657028709700108e-04
+8                                      1.4543070689227722e-03
+9                                     -1.5811125967601924e-04
+10                                     1.9177378880008700e-04
+11                                    -8.6583566922143751e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 15
+   &FinalEnergy [&Type "Double"]      -2.0054418093992226e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 16
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.205657727090    4.601219030644   -0.181722517415
+              H     -1.754158556877    4.300451596919    1.462538649234
+              H     -5.616718452791    4.775164963808   -0.589086577127
+              F     -7.348985342263    4.831526337569   -0.552412649031
+$End
+$SCF_Energy
+   &GeometryIndex 16
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010110819316739e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 16
+   &TOTAL [&Type "Double"]       2.8128700000000006e-01
+   &PREP [&Type "Double"]       2.8905999999999998e-02
+   &FOCK [&Type "Double"]       2.3526100000000008e-01
+   &DENS [&Type "Double"]       1.0350000000002857e-03
+   &ETOT [&Type "Double"]       3.6900000000007760e-04
+   &POP [&Type "Double"]       9.9999999991773336e-07
+   &TRAFO [&Type "Double"]       1.1109999999999731e-03
+   &DIIS [&Type "Double"]       2.7930000000000593e-03
+   &SOSCF [&Type "Double"]       2.3409999999998155e-03
+   &J [&Type "Double"]       2.6241100000000017e-01
+   &FOCKSTART [&Type "Double"]       3.3999999999987859e-04
+   &FROZCORE [&Type "Double"]       1.5699999999996272e-04
+$End
+$MP2_Energies
+   &GeometryIndex 16
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010110819316739e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4309208304311493e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054420027621052e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 16
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       1.8984726948980801e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      5.9438629988317615e-04
+1                                      8.8113805640221976e-06
+2                                      1.5526008011246262e-05
+3                                     -4.0902430158529235e-04
+4                                      9.5763063265197346e-05
+5                                     -5.3905129834541654e-04
+6                                     -3.5827353950557139e-04
+7                                     -2.7726770907636478e-04
+8                                      1.3529865028749227e-03
+9                                      1.7291154304643896e-04
+10                                     1.7269326389313111e-04
+11                                    -8.2946121243288040e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 16
+   &FinalEnergy [&Type "Double"]      -2.0054420027621052e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 17
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.183105544299    4.601183390173   -0.185978950603
+              H     -1.780902142462    4.300466737360    1.468053192198
+              H     -5.616280442332    4.780408281658   -0.620550491327
+              F     -7.345231949928    4.826303519750   -0.522206844608
+$End
+$SCF_Energy
+   &GeometryIndex 17
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010124396643880e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 17
+   &TOTAL [&Type "Double"]       6.2891100000000011e-01
+   &PREP [&Type "Double"]       6.5671999999999994e-02
+   &FOCK [&Type "Double"]       3.8154299999999997e-01
+   &DENS [&Type "Double"]       1.2770000000001391e-03
+   &ETOT [&Type "Double"]       4.2500000000000870e-04
+   &POP [&Type "Double"]       1.0000000000287557e-06
+   &TRAFO [&Type "Double"]       1.4728799999999997e-01
+   &DIIS [&Type "Double"]       4.4710000000000305e-03
+   &SOSCF [&Type "Double"]       2.1629999999999705e-03
+   &J [&Type "Double"]       4.3162399999999995e-01
+   &FOCKSTART [&Type "Double"]       4.0899999999997882e-04
+   &FROZCORE [&Type "Double"]       1.5600000000004499e-04
+$End
+$MP2_Energies
+   &GeometryIndex 17
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010124396643880e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4299431582082810e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054423828225964e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 17
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       3.8851387494115530e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      1.2452666736031404e-03
+1                                     -3.3139176091190325e-04
+2                                      1.8583391569761964e-03
+3                                     -8.1476886407627624e-04
+4                                      4.1189608434089031e-04
+5                                     -2.2869296763166069e-03
+6                                     -1.1627194267584962e-03
+7                                     -2.1949781881841490e-04
+8                                      1.1810958319606046e-03
+9                                      7.3222162120512024e-04
+10                                     1.3899349566387498e-04
+11                                    -7.5250531238037210e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 17
+   &FinalEnergy [&Type "Double"]      -2.0054423828225964e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 18
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.155427058513    4.601513029329   -0.193885326637
+              H     -1.835150420399    4.300943689054    1.476716252257
+              H     -5.608720240359    4.790583363344   -0.682319609102
+              F     -7.326222359751    4.815321847214   -0.461194410858
+$End
+$SCF_Energy
+   &GeometryIndex 18
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010133935456912e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 18
+   &TOTAL [&Type "Double"]       2.0014302999999998e+01
+   &PREP [&Type "Double"]       3.7073000000000002e-02
+   &FOCK [&Type "Double"]       5.3858700000000006e+00
+   &DENS [&Type "Double"]       1.1036690000000009e+00
+   &ETOT [&Type "Double"]       4.9299999999985467e-04
+   &TRAFO [&Type "Double"]       4.5997110000000010e+00
+   &DIIS [&Type "Double"]       5.0666299999999964e-01
+   &SOSCF [&Type "Double"]       5.6945200000000007e-01
+   &J [&Type "Double"]       3.9533500000000066e-01
+   &FOCKSTART [&Type "Double"]       4.7086700000000159e-01
+   &FROZCORE [&Type "Double"]       1.2499999999704414e-04
+$End
+$MP2_Energies
+   &GeometryIndex 18
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010133935456912e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4295951097316227e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054429886554229e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 18
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       4.9708449163890665e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      1.3382970897231061e-03
+1                                     -5.0692933452683997e-04
+2                                      2.8635755065775648e-03
+3                                     -7.5597765821222573e-04
+4                                      5.4698492072635663e-04
+5                                     -3.0865260962933405e-03
+6                                     -1.4968828224248831e-03
+7                                     -1.4109932625509802e-04
+8                                      7.9405249179709259e-04
+9                                      9.1456339432394174e-04
+10                                     1.0104373206135109e-04
+11                                    -5.7110190188908172e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 18
+   &FinalEnergy [&Type "Double"]      -2.0054429886554229e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 19
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.138267915980    4.603080169950   -0.207583252464
+              H     -1.920650233482    4.303225019016    1.481133795444
+              H     -5.586936911693    4.801728190101   -0.751809435778
+              F     -7.279665017868    4.800328549874   -0.382424201542
+$End
+$SCF_Energy
+   &GeometryIndex 19
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010128621729717e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 19
+   &TOTAL [&Type "Double"]       5.5638079999999999e+00
+   &PREP [&Type "Double"]       3.5630999999999996e-02
+   &FOCK [&Type "Double"]       7.1909100000000137e-01
+   &DENS [&Type "Double"]       1.4325339999999995e+00
+   &ETOT [&Type "Double"]       5.0499999999858991e-04
+   &TRAFO [&Type "Double"]       1.3212290000000002e+00
+   &DIIS [&Type "Double"]       2.6576419999999996e+00
+   &SOSCF [&Type "Double"]       1.9738100000000092e-01
+   &J [&Type "Double"]       4.9568299999999904e-01
+   &FOCKSTART [&Type "Double"]       4.8099999999889897e-04
+   &FROZCORE [&Type "Double"]       1.5000000000053859e-04
+$End
+$MP2_Energies
+   &GeometryIndex 19
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010128621729717e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4306151270029187e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054434772999747e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 19
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       3.5552675005745002e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      6.6362540837650030e-04
+1                                     -3.7283098893536870e-04
+2                                      2.2272426375109511e-03
+3                                     -3.3558005218514708e-04
+4                                      3.8763994213730779e-04
+5                                     -2.2602384611229986e-03
+6                                     -1.0268269164339650e-03
+7                                     -7.4319777844583657e-05
+8                                      3.1321367968040192e-04
+9                                      6.9878156004499203e-04
+10                                     5.9510820793445829e-05
+11                                    -2.8021785588205894e-04
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 19
+   &FinalEnergy [&Type "Double"]      -2.0054434772999747e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 20
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.136214859386    4.604153777724   -0.215006952205
+              H     -1.960523752445    4.304580748681    1.481467899937
+              H     -5.574153345420    4.805656155929   -0.776793956223
+              F     -7.254628121770    4.793971246608   -0.350350085849
+$End
+$SCF_Energy
+   &GeometryIndex 20
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010117077165748e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 20
+   &TOTAL [&Type "Double"]       1.2610489999999999e+00
+   &PREP [&Type "Double"]       2.8841290000000002e+00
+   &FOCK [&Type "Double"]       3.0522100000000041e-01
+   &DENS [&Type "Double"]       1.5617999999999910e-02
+   &ETOT [&Type "Double"]       6.2799999999985090e-04
+   &TRAFO [&Type "Double"]       1.0719999999992957e-03
+   &DIIS [&Type "Double"]       4.2879999999998475e-03
+   &SOSCF [&Type "Double"]       2.3249999999994664e-03
+   &J [&Type "Double"]       3.4241100000000069e-01
+   &FOCKSTART [&Type "Double"]       4.1000000000002146e-04
+   &FROZCORE [&Type "Double"]       1.6600000000011050e-04
+$End
+$MP2_Energies
+   &GeometryIndex 20
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010117077165748e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4318675018909148e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054435752184656e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 20
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       9.3111633879762966e-04
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      1.5026673805751400e-04
+1                                     -7.6343561402070215e-05
+2                                      6.1254283368139539e-04
+3                                     -5.6232668899203198e-05
+4                                      8.8040764576025055e-05
+5                                     -5.8713723138970053e-04
+6                                     -2.6957899623969439e-04
+7                                     -4.7102934399370633e-05
+8                                      2.0150466726320815e-06
+9                                      1.7554493349880573e-04
+10                                     3.5405732165497139e-05
+11                                    -2.7420648822551463e-05
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 20
+   &FinalEnergy [&Type "Double"]      -2.0054435752184656e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 21
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.139202017206    4.604404005980   -0.216069227364
+              H     -1.961406480046    4.304703049790    1.480957989873
+              H     -5.571497713837    4.805121662686   -0.773828773392
+              F     -7.253413867932    4.794133210485   -0.351743083456
+$End
+$SCF_Energy
+   &GeometryIndex 21
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010113938925818e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 21
+   &TOTAL [&Type "Double"]       2.4242999999999998e-01
+   &PREP [&Type "Double"]       4.3941999999999995e-02
+   &FOCK [&Type "Double"]       1.9102899999999998e-01
+   &DENS [&Type "Double"]       1.5110000000000123e-03
+   &ETOT [&Type "Double"]       6.0899999999999843e-04
+   &POP [&Type "Double"]       1.0000000000287557e-06
+   &TRAFO [&Type "Double"]       9.7900000000000764e-04
+   &DIIS [&Type "Double"]       1.0510000000000103e-03
+   &SOSCF [&Type "Double"]       4.2069999999999746e-03
+   &J [&Type "Double"]       2.2175000000000000e-01
+   &FOCKSTART [&Type "Double"]       5.0099999999995287e-04
+   &FROZCORE [&Type "Double"]       2.2199999999999998e-04
+$End
+$MP2_Energies
+   &GeometryIndex 21
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010113938925818e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4321892041980449e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054435830967799e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 21
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.1021460371363729e-04
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      5.2999195930603094e-05
+1                                      1.0095125433151608e-05
+2                                      1.2955675533676825e-04
+3                                     -1.8309819772244218e-05
+4                                      6.1454088197132606e-06
+5                                     -1.2042374792642363e-04
+6                                     -6.7101472258190853e-05
+7                                     -5.0842124621731932e-05
+8                                     -1.5576876658207617e-05
+9                                      3.2412102081380567e-05
+10                                     3.4601585287785674e-05
+11                                     6.4438693758717136e-06
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 21
+   &FinalEnergy [&Type "Double"]      -2.0054435830967799e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 22
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.142891031837    4.604383554399   -0.215481126003
+              H     -1.955607232528    4.304552930389    1.480770598386
+              H     -5.571259848547    4.804386327360   -0.769065523487
+              F     -7.255761966110    4.795039116793   -0.356907043235
+$End
+$SCF_Energy
+   &GeometryIndex 22
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010113235536755e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 22
+   &TOTAL [&Type "Double"]       3.1799199999999994e-01
+   &PREP [&Type "Double"]       3.2878999999999999e-02
+   &FOCK [&Type "Double"]       2.5544399999999989e-01
+   &DENS [&Type "Double"]       1.0979999999999879e-03
+   &ETOT [&Type "Double"]       6.3250000000000389e-03
+   &TRAFO [&Type "Double"]       7.0900000000001517e-04
+   &DIIS [&Type "Double"]       9.2100000000000515e-04
+   &SOSCF [&Type "Double"]       4.1639999999999872e-03
+   &J [&Type "Double"]       2.9477499999999990e-01
+   &FOCKSTART [&Type "Double"]       4.1699999999991050e-04
+   &FROZCORE [&Type "Double"]       2.1100000000001673e-04
+$End
+$MP2_Energies
+   &GeometryIndex 22
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010113235536755e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4322612783735132e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054435848320492e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 22
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       9.9241420639907326e-05
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                      4.8106859011909364e-06
+1                                      4.0322352472310641e-05
+2                                     -4.0275653341304007e-05
+3                                     -3.7702212696277826e-07
+4                                     -2.1970013622252260e-05
+5                                      4.1087581041487908e-05
+6                                      5.7984142740608036e-06
+7                                     -5.3384230885571149e-05
+8                                     -1.0176524660621133e-05
+9                                     -1.0232078495597818e-05
+10                                     3.5031886497283171e-05
+11                                     9.3645971256384186e-06
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 22
+   &FinalEnergy [&Type "Double"]      -2.0054435848320492e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Geometry
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              F     -2.143983534162    4.604303238434   -0.215028211739
+              H     -1.953148783076    4.304484827242    1.480782599566
+              H     -5.571582006222    4.804250410197   -0.767808885602
+              F     -7.256805755562    4.795323453068   -0.358628596564
+$End
+$SCF_Mulliken_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -3.3000923991319198e-01
+1                                      3.4906208554472995e-01
+2                                      3.4652552596309305e-01
+3                                     -3.6557837159468498e-01
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$SCF_Loewdin_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -2.6136826390564138e-02
+1                                      7.5763220760515226e-02
+2                                      2.9701761574835839e-02
+3                                     -7.9328155944855538e-02
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$SCF_Mayer_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4 "Total number of atoms"
+   &NBondOrdersPrint [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &bondThresh [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &components [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           9                           1                           1
+1                                                        2                           1                           3                           9
+   &BondOrders [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      9.1543018255585307e-01
+1                                      8.9579373742022717e-01
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &NA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.3300092399131866e+00
+1                                      6.5093791445527005e-01
+2                                      6.5347447403690773e-01
+3                                      9.3655783715946939e+00
+   &ZA [&Type "ArrayOfDoubles", &Dim (4,1)] "Total nuclear charge"
+                                                         0
+
+0                                      9.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+3                                      9.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -3.3000923991318665e-01
+1                                      3.4906208554472995e-01
+2                                      3.4652552596309227e-01
+3                                     -3.6557837159469386e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's total valence"
+                                                         0
+
+0                                      9.6093766464890529e-01
+1                                      9.2288404827713111e-01
+2                                      9.4018628781990765e-01
+3                                      9.0436253483493267e-01
+   &BVA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.6093766464895747e-01
+1                                      9.2288404827713977e-01
+2                                      9.4018628781991231e-01
+3                                      9.0436253483493301e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's free valence"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+3                                      0.0000000000000000e+00
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$SCF_Energy
+   &GeometryIndex 23
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0010113535769989e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$SCF_Timings
+   &GeometryIndex 23
+   &TOTAL [&Type "Double"]       4.0269400000000000e-01
+   &PREP [&Type "Double"]       6.8543999999999994e-02
+   &FOCK [&Type "Double"]       3.2501300000000000e-01
+   &DENS [&Type "Double"]       2.4329999999999630e-03
+   &ETOT [&Type "Double"]       2.5160000000000460e-03
+   &POP [&Type "Double"]       5.9596999999999956e-02
+   &TRAFO [&Type "Double"]       6.6099999999996717e-04
+   &DIIS [&Type "Double"]       9.0699999999999115e-04
+   &SOSCF [&Type "Double"]       3.1689999999999496e-03
+   &J [&Type "Double"]       3.7495600000000001e-01
+   &FOCKSTART [&Type "Double"]       4.1500000000005421e-04
+   &FROZCORE [&Type "Double"]       1.7699999999998273e-04
+$End
+$MP2_Mulliken_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -3.2361758452691980e-01
+1                                      3.4344344234471158e-01
+2                                      3.4026481589095492e-01
+3                                     -3.6009067370880565e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Loewdin_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -1.9904411519386045e-02
+1                                      7.0779889851477207e-02
+2                                      2.3624871861015251e-02
+3                                     -7.4500350193181575e-02
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Mayer_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4 "Total number of atoms"
+   &NBondOrdersPrint [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &bondThresh [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &components [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           9                           1                           1
+1                                                        2                           1                           3                           9
+   &BondOrders [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      8.7888716163375735e-01
+1                                      8.6073689850869040e-01
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &NA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.3236175845269127e+00
+1                                      6.5655655765528831e-01
+2                                      6.5973518410904464e-01
+3                                      9.3600906737088145e+00
+   &ZA [&Type "ArrayOfDoubles", &Dim (4,1)] "Total nuclear charge"
+                                                         0
+
+0                                      9.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+3                                      9.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -3.2361758452691269e-01
+1                                      3.4344344234471169e-01
+2                                      3.4026481589095536e-01
+3                                     -3.6009067370881453e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's total valence"
+                                                         0
+
+0                                      1.2067851089900015e+00
+1                                      9.3185699495423380e-01
+2                                      9.4993568890855085e-01
+3                                      1.1496618491862318e+00
+   &BVA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.2297925965075889e-01
+1                                      8.8615934443769917e-01
+2                                      9.0429783693664179e-01
+3                                      8.6854024090168236e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's free valence"
+                                                         0
+
+0                                      2.8380584933924258e-01
+1                                      4.5697650516534655e-02
+2                                      4.5637851971909060e-02
+3                                      2.8112160828454946e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Mulliken_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -2.9644104014542982e-01
+1                                      3.2452962733877500e-01
+2                                      3.1172492644270156e-01
+3                                     -3.3981351363610557e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Loewdin_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] 
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &AtomicCharges [&Type "ArrayOfDoubles", &Dim (4,1)] 
+                                                         0
+
+0                                     -2.5593368057332810e-03
+1                                      5.9632318635549297e-02
+2                                      5.9789018215076206e-03
+3                                     -6.3051883651393581e-02
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Mayer_Population_Analysis
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4 "Total number of atoms"
+   &NBondOrdersPrint [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &bondThresh [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &components [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           9                           1                           1
+1                                                        2                           1                           3                           9
+   &BondOrders [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      8.9798998781112105e-01
+1                                      8.8030455383712314e-01
+   &ATNO [&Type "ArrayOfIntegers", &Dim (4,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        9
+1                                                        1
+2                                                        1
+3                                                        9
+   &NA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.2964410401454334e+00
+1                                      6.7547037266122489e-01
+2                                      6.8827507355729844e-01
+3                                      9.3398135136361109e+00
+   &ZA [&Type "ArrayOfDoubles", &Dim (4,1)] "Total nuclear charge"
+                                                         0
+
+0                                      9.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+3                                      9.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -2.9644104014543338e-01
+1                                      3.2452962733877511e-01
+2                                      3.1172492644270156e-01
+3                                     -3.3981351363611090e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's total valence"
+                                                         0
+
+0                                      1.2434278245106882e+00
+1                                      9.5298548808097905e-01
+2                                      9.8730513420073385e-01
+3                                      1.1712271597343928e+00
+   &BVA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.6203881534779945e-01
+1                                      9.0762053339496607e-01
+2                                      9.4254266304673240e-01
+3                                      8.9174581774803741e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (4,1)] "Mayer's free valence"
+                                                         0
+
+0                                      2.8138900916288878e-01
+1                                      4.5364954686012926e-02
+2                                      4.4762471154001449e-02
+3                                      2.7948134198635544e-01
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Energies
+   &GeometryIndex 23
+   &refEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Reference energy for each state"
+                                                         0
+
+0                                     -2.0010113535769989e+02
+   &corrEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "MP2 correlation energy for each state"
+                                                         0
+
+0                                     -4.4322314153900105e-01
+   &Method [&Type "String"] "MP2"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.0054435849923888e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 23
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       7.7633031614929011e-05
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -1.3132166980511784e-06
+1                                      3.5135852302969894e-05
+2                                     -1.2741390383208540e-05
+3                                      9.3808695511565787e-07
+4                                     -1.7071068430074554e-05
+5                                      1.4373901392694677e-05
+6                                      4.4125976601527839e-06
+7                                     -5.2729942339506397e-05
+8                                     -8.2377364216679183e-06
+9                                     -4.0374641532281430e-06
+10                                     3.4665158630153847e-05
+11                                     6.6052259397597624e-06
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Single_Point_Data
+   &GeometryIndex 23
+   &FinalEnergy [&Type "Double"]      -2.0054435849923888e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 23
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       1.1853079384727183e+00
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      6.7346881746153137e-02
+1                                      8.4989134054157831e-04
+2                                     -1.5422508113647846e-02
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      9.3080859118398251e-01
+1                                     -1.4432613081226453e-01
+2                                      6.3836321923559347e-01
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      9.9815547293013562e-01
+1                                     -1.4347623947172294e-01
+2                                      6.2294071112194560e-01
+   &doAtomicDipole [&Type "Boolean"] false
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Dipole_Moment
+   &GeometryIndex 23
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       1.1718608820830112e+00
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      5.7010762244898608e-02
+1                                      2.7303484051001167e-03
+2                                     -2.4016829686323481e-02
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      9.3080859118398251e-01
+1                                     -1.4432613081226453e-01
+2                                      6.3836321923559347e-01
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      9.8781935342888116e-01
+1                                     -1.4159578240716442e-01
+2                                      6.1434638954927001e-01
+   &doAtomicDipole [&Type "Boolean"] false
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Unrelaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$MP2_Dipole_Moment
+   &GeometryIndex 23
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       1.1445174304991108e+00
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      3.7974530309814965e-02
+1                                      7.0918365291576671e-03
+2                                     -4.4607241836091119e-02
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      9.3080859118398251e-01
+1                                     -1.4432613081226453e-01
+2                                      6.3836321923559347e-01
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      9.6878312149379753e-01
+1                                     -1.3723429428310685e-01
+2                                      5.9375597739950237e-01
+   &doAtomicDipole [&Type "Boolean"] false
+   &Method [&Type "String"] "MP2"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$THERMOCHEMISTRY_Energies
+   &GeometryIndex 23
+   &temperature [&Type "Double"]       2.9814999999999998e+02
+   &pressure [&Type "Double"]       1.0000000000000000e+00
+   &totalMass [&Type "Double"]       4.0012000000000000e+01
+   &spinDegeneracy [&Type "Integer"] 1
+   &elEnergy [&Type "Double"]      -2.0054435850566460e+02
+   &transEnergy [&Type "Double"]       1.4162714244859817e-03
+   &rotEnergy [&Type "Double"]       1.4162714244859817e-03
+   &vibEnergy [&Type "Double"]       1.6465428509406686e-03
+   &numOfFreqs [&Type "Integer"] 12
+   &freqScalingFactor [&Type "Double"]       1.0000000000000000e+00
+   &FREQ [&Type "ArrayOfDoubles", &Units "cm^-1", &Dim (12,1)] 
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+3                                      0.0000000000000000e+00
+4                                      0.0000000000000000e+00
+5                                      0.0000000000000000e+00
+6                                      1.2514995182642475e+02
+7                                      2.0982532371613317e+02
+8                                      4.6918350508485707e+02
+9                                      5.9015375431848656e+02
+10                                     4.1510188799160751e+03
+11                                     4.2010319053296207e+03
+   &zpe [&Type "Double"]       2.2203849421771713e-02
+   &innerEnergyU [&Type "Double"]      -2.0051767557054291e+02
+   &enthalpyH [&Type "Double"]      -2.0051673136150066e+02
+   &qEl [&Type "Double"]       0.0000000000000000e+00
+   &qRot [&Type "Double"]       9.4781725082209774e-03
+   &qVib [&Type "Double"]       2.9285685536981584e-03
+   &qTrans [&Type "Double"]       1.7573950557192301e-02
+   &entropyS [&Type "Double"]       2.9980691619111436e-02
+   &freeEnergyG [&Type "Double"]      -2.0054671205311976e+02
+   &isLinear [&Type "Boolean"] false
+$End
+$Calculation_Info
+   &GeometryIndex 23
+   &Mult [&Type "Integer"] 1
+   &Charge [&Type "Integer"] 0
+   &NumOfAtoms [&Type "Integer"] 4
+   &NumOfElectrons [&Type "Integer"] 20
+   &NumOfBasisFuncts [&Type "Integer"] 48
+   &NumOfAuxCBasisFuncts [&Type "Integer"] 0
+   &NumOfAuxJBasisFuncts [&Type "Integer"] 0
+   &NumOfAuxJKBasisFuncts [&Type "Integer"] 0
+   &NumOfCABSBasisFuncts [&Type "Integer"] 0
+$End
+$Calculation_Timings
+   &GeometryIndex 23
+   &GTOINT [&Type "Double"]       4.8874340000000140e+00
+   &SCF [&Type "Double"]       5.3393080000000012e+01
+   &GSTEP [&Type "Double"]       4.3124290000000176e+00
+   &MP2 [&Type "Double"]       5.5395809999999962e+01
+   &FREQ_NUM [&Type "Double"]       2.1679542299999997e+02
+   &PROP [&Type "Double"]       1.7336500000000399e-01
+   &SUM [&Type "Double"]       3.3495754099999999e+02
+$End
